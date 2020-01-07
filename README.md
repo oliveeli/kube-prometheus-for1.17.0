@@ -1,10 +1,10 @@
-k8s-1.17.0测试通过版本
+k8s-1.17.0 test success version
 
-## 安装kube-prometheus
+## Intall kube-prometheus
 ```shell
 kubectl create -f manifests/
 ```
-## 安装custom-metrics
+## Intall  custom-metrics
 ```
 kubectl create -f  experimental/custom-metrics-api/
 ```
