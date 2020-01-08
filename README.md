@@ -5,6 +5,8 @@ fork from https://github.com/coreos/kube-prometheus
 
 ## Intall kube-prometheus
 ```shell
+kubectl create -f manifests/setup
+
 kubectl create -f manifests/
 ```
 ## Intall  custom-metrics
